@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Exemples</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="affCave">Affichage de la Cave!</string>
+    <string name="title_activity_affichage_pref">AffichagePref</string>
+    <string name="title_activity_affichage_bd_d">AffichageBdD</string>
+    <string name="title_activity_vue_listte">VueListte</string>
+    <string name="title_activity_affiche_cave">AfficheCave</string>
+    <string name="title_activity_affichage_menu_principal">AffichageMenuPrincipal</string>
+    <string name="title_activity_affichage_detail_vin">AffichageDetailVin</string>
+    <string name="title_activity_exemple2">exemple2</string>
+</resources>

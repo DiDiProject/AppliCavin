@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    CAV'IN    "
+            android:textSize="35dp"
+            android:textColor="#fd1207"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/textView5"
+            android:layout_marginTop="65dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Voir sa cave à vin"
+            android:id="@+id/cave"
+            android:layout_marginTop="175dp"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Voir sa liste de préférence"
+            android:id="@+id/liste"
+            android:layout_marginTop="225dp"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Voir la base de données"
+            android:id="@+id/bdd"
+            android:layout_marginTop="275dp"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rechercher des vins"
+            android:id="@+id/recherche"
+            android:layout_marginTop="325dp"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/vins"
+            android:layout_alignParentTop="true"
+            android:id="@+id/imageView"
+            android:layout_toStartOf="@+id/textView5"
+            android:layout_toLeftOf="@+id/textView5" />
+
+    </RelativeLayout>
+</LinearLayout>

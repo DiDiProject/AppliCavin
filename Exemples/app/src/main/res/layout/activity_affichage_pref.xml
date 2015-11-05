@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.didi.exemples.AffichagePref">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Liste de preférence"
+        android:id="@+id/textView4"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#255ffd"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="retour menu"
+        android:id="@+id/buttonretour"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listevoirpref"
+        android:layout_below="@+id/buttonretour"
+        android:layout_alignLeft="@+id/buttonretour"
+        android:layout_alignStart="@+id/buttonretour" />
+</RelativeLayout>
