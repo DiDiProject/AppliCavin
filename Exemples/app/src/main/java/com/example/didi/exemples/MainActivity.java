@@ -22,7 +22,7 @@ public class MainActivity extends Activity {
         menuPrincipal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "Le contenu du menu principal va s'afficher !", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Retestons Le contenu du menu principal va s'afficher !", Toast.LENGTH_SHORT).show();
                 Intent n = new Intent(MainActivity.this, AffichageMenuPrincipal.class);
                 startActivity(n);
             }
